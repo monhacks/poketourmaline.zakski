@@ -415,6 +415,15 @@ static const struct SpriteTemplate gBerryCheckCircleSpriteTemplate =
     .callback = SpriteCallbackDummy,
 };
 
+void HideBagItemIconSprite(u8 id)
+{
+	u8 *spriteId = &gBagMenu->spriteId[10];
+	if (spriteId[id] != 0xFF)
+	{
+		gSprites[spriteId[id]].invisible = TRUE;
+	}
+}
+
 // code
 void RemoveBagSprite(u8 id)
 {
