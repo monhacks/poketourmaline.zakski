@@ -8,6 +8,8 @@ It builds the following ROM:
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
+## Resolved Bugs And Glitches
+see [here](/docs/bugs_and_glitches.md)
 
 ## See also
 
