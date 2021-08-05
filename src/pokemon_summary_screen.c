@@ -1670,29 +1670,34 @@ static void Task_ChangeSummaryMon(u8 taskId)
     data[0]++;
 }
 
+/**
+ * In XY and later games, the Summary Screen wraps around. I.e. if you press down on the summary screen of the last
+ * Pokémon in your party, you'll be taken back to the first Pokémon in your party (in earlier games, it would just do
+ * nothing). Similarly, if you press up while on the first Pokémon in your party, you'll go to the last.
+ */
 static s8 AdvanceMonIndex(s8 delta)
 {
     struct Pokemon *mon = sMonSummaryScreen->monList.mons;
+    u8 index = sMonSummaryScreen->curMonIndex;
+    u8 numMons = sMonSummaryScreen->maxMonIndex + 1;
 
-    if (sMonSummaryScreen->currPageIndex == PSS_PAGE_INFO)
+    // Wrap around using ternary operator to control whether we are incrementing or decrementing
+    index = (delta > 0) ? (index + delta) % numMons : ((index + delta) + numMons) % numMons;
+
+    // skip over any Eggs unless on the Info Page
+    if (sMonSummaryScreen->currPageIndex != PSS_PAGE_INFO){
+        while (GetMonData(&mon[index], MON_DATA_IS_EGG)){
+            index = (delta > 0) ? (index + delta) % numMons : ((index + delta) + numMons) % numMons;
+        }
+    }
+
+    // Avoid "scrolling" to the same Pokemon
+    if (index == sMonSummaryScreen->curMonIndex)
     {
-        if (delta == -1 && sMonSummaryScreen->curMonIndex == 0)
-            return -1;
-        else if (delta == 1 && sMonSummaryScreen->curMonIndex >= sMonSummaryScreen->maxMonIndex)
-            return -1;
-        else
-            return sMonSummaryScreen->curMonIndex + delta;
+        return -1;
     }
     else
     {
-        s8 index = sMonSummaryScreen->curMonIndex;
-
-        do
-        {
-            index += delta;
-            if (index < 0 || index > sMonSummaryScreen->maxMonIndex)
-                return -1;
-        } while (GetMonData(&mon[index], MON_DATA_IS_EGG));
         return index;
     }
 }
