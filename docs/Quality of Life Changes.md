@@ -4,3 +4,4 @@ These are little things ported from newer generations in order to make life slig
 
 ## Contents
 - [Wrapping Summary Screen](/docs/qol/Wrap Summary Screen.md)
+- [Coloured Nature Stats](/docs/qol/Coloured Nature Stats.md)
