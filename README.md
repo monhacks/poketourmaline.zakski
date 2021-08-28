@@ -11,6 +11,9 @@ To set up the repository, see [INSTALL.md](/INSTALL.md).
 ## Resolved Bugs And Glitches
 see [here](/docs/bugs_and_glitches.md)
 
+## Quality Of Life Changes
+see [here](/docs/Quality of Life Changes.md)
+
 ## See also
 
 Other disassembly and/or decompilation projects:
