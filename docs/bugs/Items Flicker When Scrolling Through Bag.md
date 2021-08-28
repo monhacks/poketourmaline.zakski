@@ -4,10 +4,10 @@
 ```diff
 +void HideBagItemIconSprite(u8 id)
 +{
-+	u8 *spriteId = &gBagMenu->spriteId[10];
-+	if (spriteId[id] != 0xFF)
++	u8 *spriteId = &gBagMenu->spriteIds[10];
++	if (spriteIds[id] != 0xFF)
 +	{
-+		gSprites[spriteId[id]].invisible = TRUE;
++		gSprites[spriteIds[id]].invisible = TRUE;
 +	}
 +}
 
