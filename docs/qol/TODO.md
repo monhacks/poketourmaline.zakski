@@ -16,7 +16,6 @@
 - **[Learn moves upon evolution](https://github.com/pret/pokeemerald/wiki/Learn-moves-upon-evolution)**
 - **[Prompt for reusing Repels](https://github.com/pret/pokeemerald/wiki/Prompt-for-reusing-Repels)**
 - **[Pokecenters disregard eggs](https://github.com/pret/pokeemerald/wiki/Pokecenters-Disregard-Eggs)**
-- **[LGPE-Style Bonus Premier Balls](https://github.com/pret/pokeemerald/wiki/LGPE-Style-Bonus-Premier-Balls)**
 - **[Repeated Medicine Use](https://github.com/pret/pokeemerald/wiki/Repeated-Field-Medicine-Use)**
 - **[Chain Fishing](https://github.com/pret/pokeemerald/wiki/Chain-Fishing)**
 - **[Update Sitrus Berry's effect to Gen 4 standard](Update-Sitrus-Berry's-effect-to-Gen-4-standard)**
@@ -24,7 +23,7 @@
 - **[Shuckle makes Berry Juice](https://github.com/pret/pokeemerald/wiki/Shuckle-makes-Berry-Juice)**
 - **[Remove the functionally redundant move grammar tables](https://github.com/pret/pokeemerald/wiki/Remove-the-functionally-redundant-move-grammar-tables)**
 - **[Disable Bag use In Battle](https://github.com/pret/pokeemerald/wiki/Disable-Bag-Use-In-Battle)**
-- **[Disable Catching Pokemon]https://github.com/pret/pokeemerald/wiki/(Disable-Catching-Pokemon)**
+- **[Disable Catching Pokemon](https://github.com/pret/pokeemerald/wiki/Disable-Catching-Pokemon)**
 - **[Dynamic Trade Names](https://github.com/pret/pokeemerald/wiki/Dynamic-Trade-Names)**
 - **[Enable trade with FRLG without beating the game](https://github.com/pret/pokeemerald/wiki/Enable-trade-with-FRLG-without-beating-the-game)**
 - **[Omnidirectional Jump Behavior](https://github.com/pret/pokeemerald/wiki/Omnidirectional-Jump)**
