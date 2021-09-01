@@ -11,7 +11,6 @@
 - **[FRLG/DP+ White Out Money Calculation](https://github.com/pret/pokeemerald/wiki/Better-White-Out-Money-Calculation)**
 - **[Allow running indoors](https://github.com/pret/pokeemerald/wiki/Allow-running-indoors)**
 - **[Increase money limit](https://github.com/pret/pokeemerald/wiki/Increase-money-limit)**
-- **[Infinite TM usage](https://github.com/pret/pokeemerald/wiki/Infinite-TM-usage)**
 - **[Trainer Class-Based Poké Balls](https://github.com/pret/pokeemerald/wiki/Trainer-Class-Based-Poké-Balls)**
 - **[Learn moves upon evolution](https://github.com/pret/pokeemerald/wiki/Learn-moves-upon-evolution)**
 - **[Prompt for reusing Repels](https://github.com/pret/pokeemerald/wiki/Prompt-for-reusing-Repels)**
