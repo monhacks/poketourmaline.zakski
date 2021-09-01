@@ -11,8 +11,11 @@ To set up the repository, see [INSTALL.md](/INSTALL.md).
 ## Resolved Bugs And Glitches
 see [here](/docs/bugs_and_glitches.md)
 
-## Quality Of Life Changes
+## Resolved Quality Of Life Changes
 see [here](/docs/Quality of Life Changes.md)
+
+## Planned Changes
+see [here](/docs/bugs/TODO.md) and [here](/docs/qol/TODO.md)
 
 ## See also
 

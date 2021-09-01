@@ -1,41 +1,31 @@
 # Planned Changes
-- Difficulty
-    - **_Basic_**: These tutorials are simple changes that those with basic programming knowledge should be able to do.
-    - **_Intermediate_**: These tutorials require more work and programming knowledge.
-    - **_Advanced_**: These tutorials overhaul systems, and may require advanced knowledge.
 
-## Basic
-- **[Change Time-Based Evolution Times](https://github.com/pret/pokeemerald/wiki/Change-Time-Based-Evolution-Times)**
-- **[Trainer Backsprite Editing](https://github.com/pret/pokeemerald/wiki/Trainer-Backsprite-Editing)**
-- **[Faster HP Drain](https://github.com/pret/pokeemerald/wiki/Faster-HP-Drain)**
+## General
 - **[FRLG/DP+ White Out Money Calculation](https://github.com/pret/pokeemerald/wiki/Better-White-Out-Money-Calculation)**
 - **[Allow running indoors](https://github.com/pret/pokeemerald/wiki/Allow-running-indoors)**
-- **[Increase money limit](https://github.com/pret/pokeemerald/wiki/Increase-money-limit)**
-- **[Trainer Class-Based Poké Balls](https://github.com/pret/pokeemerald/wiki/Trainer-Class-Based-Poké-Balls)**
 - **[Learn moves upon evolution](https://github.com/pret/pokeemerald/wiki/Learn-moves-upon-evolution)**
-- **[Prompt for reusing Repels](https://github.com/pret/pokeemerald/wiki/Prompt-for-reusing-Repels)**
-- **[Pokecenters disregard eggs](https://github.com/pret/pokeemerald/wiki/Pokecenters-Disregard-Eggs)**
-- **[Repeated Medicine Use](https://github.com/pret/pokeemerald/wiki/Repeated-Field-Medicine-Use)**
-- **[Chain Fishing](https://github.com/pret/pokeemerald/wiki/Chain-Fishing)**
+- **[Enable trade with FRLG without beating the game](https://github.com/pret/pokeemerald/wiki/Enable-trade-with-FRLG-without-beating-the-game)**
 - **[Update Sitrus Berry's effect to Gen 4 standard](Update-Sitrus-Berry's-effect-to-Gen-4-standard)**
 - **[Shop Items by Badge Count](https://github.com/pret/pokeemerald/wiki/Shop-Items-By-Badge-Count)**
+- **[Dynamic Trade Names](https://github.com/pret/pokeemerald/wiki/Dynamic-Trade-Names)**
+- **[Chain Fishing](https://github.com/pret/pokeemerald/wiki/Chain-Fishing)**
 - **[Shuckle makes Berry Juice](https://github.com/pret/pokeemerald/wiki/Shuckle-makes-Berry-Juice)**
 - **[Remove the functionally redundant move grammar tables](https://github.com/pret/pokeemerald/wiki/Remove-the-functionally-redundant-move-grammar-tables)**
-- **[Disable Bag use In Battle](https://github.com/pret/pokeemerald/wiki/Disable-Bag-Use-In-Battle)**
-- **[Disable Catching Pokemon](https://github.com/pret/pokeemerald/wiki/Disable-Catching-Pokemon)**
-- **[Dynamic Trade Names](https://github.com/pret/pokeemerald/wiki/Dynamic-Trade-Names)**
-- **[Enable trade with FRLG without beating the game](https://github.com/pret/pokeemerald/wiki/Enable-trade-with-FRLG-without-beating-the-game)**
-- **[Omnidirectional Jump Behavior](https://github.com/pret/pokeemerald/wiki/Omnidirectional-Jump)**
-- **[Uniquely Shuffle Arrays](Uniquely-Shuffle-Array)**
+- **[Change Time-Based Evolution Times](https://github.com/pret/pokeemerald/wiki/Change-Time-Based-Evolution-Times)**
+- **[Speed Up Surfing](/https://www.pokecommunity.com/showpost.php?p=10137446&postcount=59)**
+- **[Gen VI XP-Share](/https://www.pokecommunity.com/showpost.php?p=10060538&postcount=26)**
 
-### Intermediate
-- **[Implementing the “textcolor” script command from FRLG and give object events their own text colour](https://github.com/pret/pokeemerald/wiki/Implementing-the-“textcolor”-script-command-from-FRLG-and-give-object-events-their-own-text-colour)**
-- **[Implementing ipatix's High Quality Audio Mixer](https://github.com/pret/pokeemerald/wiki/Implementing-ipatix's-High-Quality-Audio-Mixer)**
-### Advanced
-- **[Triple-layer metatiles](https://github.com/pret/pokeemerald/wiki/Triple-layer-metatiles)**
-- **[Stair Warps](https://github.com/pret/pokeemerald/wiki/Stair-Warps)**
+## Engine Expansion / Backporting
 
-## Branches
+### [Pokedex Plus](https://www.pokecommunity.com/showthread.php?t=441996)
+
+### [dexnav](https://github.com/ghoulslash/pokeemerald/tree/dexnav)
+Adds a simplified DexNav, complete with Search and Detector modes, creeping up to wild Pokemon, and chaining.
+
+For more info, see [this Pokecommunity post](https://www.pokecommunity.com/showthread.php?t=440571).
+
+#### Maintainers:
+ghoulslash
 
 ### [battle_engine](/https://github.com/rh-hideout/pokeemerald-expansion/tree/battle_engine)
 An overhaul and upgrade of pokeemerald's battle engine with newer gen features and mechanics, such as:
@@ -54,7 +44,7 @@ An overhaul and upgrade of pokeemerald's battle engine with newer gen features a
 
 For more information see [pokeemerald Expansion's wiki](https://github.com/rh-hideout/pokeemerald-expansion/wiki/About-the-Project).
 
-#### Maintainers: 
+#### Maintainers:
 ROM Hacking Hideout
 
 ### [pokemon_expansion](https://github.com/rh-hideout/pokeemerald-expansion/tree/pokemon_expansion)
@@ -91,39 +81,33 @@ For more information see [pokeemerald Expansion's wiki](https://github.com/rh-hi
 #### Maintainers:
 ROM Hacking Hideout
 
-### [BetterBag](https://github.com/AsparagusEduardo/pokeemerald/tree/BetterBag)
-Adds the following new pockets to the bag:
+## UI
 
-    Medicine (HP, PP and status recovery items)
-    Power-Up (Vitamins, Rare Candy and evolution items)
-    Battle Items (X items, Pokédoll/FluffyTail and hold items with battle effects)
+- **[Prompt for reusing Repels](https://github.com/pret/pokeemerald/wiki/Prompt-for-reusing-Repels)**
+- **[BetterBag](https://github.com/AsparagusEduardo/pokeemerald/tree/BetterBag)**
+  - For more info see [this Pokecommunity post](https://www.pokecommunity.com/showthread.php?t=424360).
+- **[Repeated Medicine Use](https://github.com/pret/pokeemerald/wiki/Repeated-Field-Medicine-Use)**
+- **[Bag Sorting](/https://www.pokecommunity.com/showpost.php?p=10167488&postcount=84)**
+- **[Better Infinite TM Shop Handling](https://www.pokecommunity.com/showpost.php?p=10133566&postcount=55)**
+- **[Decapitalization](https://www.pokecommunity.com/showthread.php?t=451448)**
 
-For more info see [this Pokecommunity post](https://www.pokecommunity.com/showthread.php?t=424360).
+## Graphics
+- **[Trainer Class-Based Poké Balls](https://github.com/pret/pokeemerald/wiki/Trainer-Class-Based-Poké-Balls)**
+- **[Pokecenters disregard eggs](https://github.com/pret/pokeemerald/wiki/Pokecenters-Disregard-Eggs)**
+- **[Stair Warps](https://github.com/pret/pokeemerald/wiki/Stair-Warps)**
+- **[Implementing the “textcolor” script command from FRLG and give object events their own text colour](https://github.com/pret/pokeemerald/wiki/Implementing-the-“textcolor”-script-command-from-FRLG-and-give-object-events-their-own-text-colour)**
+- **[dynamic-ow-pals](https://github.com/ExpoSeed/pokeemerald/tree/dynamic-ow-pals)**
+  - Adds a system to load and unload overworld palettes based on what is on screen, instead of keeping all overworld 
+  palettes loaded at once. This enables you to be much more flexible about overworld palettes.
+- **[Trainer Backsprite Editing](https://github.com/pret/pokeemerald/wiki/Trainer-Backsprite-Editing)**
 
-#### Maintainers: 
-AsparagusEduardo
+## Difficulty Changes
+- **[Disable Bag use In Battle](https://github.com/pret/pokeemerald/wiki/Disable-Bag-Use-In-Battle)**
+- **[Set Or Shift Battle Style](https://www.pokecommunity.com/showpost.php?p=9997226&postcount=17)**
+- **[Edit Trainers](https://www.pokecommunity.com/showthread.php?t=434277)**
 
-### [overworld-expansion](https://github.com/ghoulslash/pokeemerald/tree/overworld-expansion)
-Increases the number of maximum object events in the game from 255 to 65535. This is done by converting the ID from a u8 
-to a u16.
+## Audio
+- **[Implementing ipatix's High Quality Audio Mixer](https://github.com/pret/pokeemerald/wiki/Implementing-ipatix's-High-Quality-Audio-Mixer)**
 
-#### Maintainers: 
-ghoulslash
-
-### [dexnav](https://github.com/ghoulslash/pokeemerald/tree/dexnav)
-Adds a simplified DexNav, complete with Search and Detector modes, creeping up to wild Pokemon, and chaining.
-
-For more info, see [this Pokecommunity post](https://www.pokecommunity.com/showthread.php?t=440571).
-
-#### Maintainers:
-ghoulslash
-
-### [dynamic-ow-pals](https://github.com/ExpoSeed/pokeemerald/tree/dynamic-ow-pals)
-Adds a system to load and unload overworld palettes based on what is on screen, instead of keeping all overworld 
-palettes loaded at once. This enables you to be much more flexible about overworld palettes.
-
-#### Maintainers: 
-ExpoSeed
-
-## To do
+## TODO
 - transfer the rest of the simple modifications from the [Pokecommunity thread](https://www.pokecommunity.com/showthread.php?p=9986048)
